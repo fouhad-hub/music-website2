@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <button onclick="searchMusic()"><i class="ri-search-2-line" </i></i></button>
+        <!-- <i class="ri-search-2-line" </i> -->
+        <input
+          type="text"
+          name=""
+          id="searchBar"
+          placeholder="what do you want to play?"
+        />
+      </div>
+      <div class="audio-controller">
+        <div id="results"></div>
+        <audio id="audioPlayer" controls></audio>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Search & Play</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search & Play Music</h1>
+      <input
+        type="text"
+        id="searchBar"
+        placeholder="Search for a song or artist..."
+      />
+      <button onclick="searchMusic()">Search</button>
+      <div id="results"></div>
+      <audio id="audioPlayer" controls></audio>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html> -->

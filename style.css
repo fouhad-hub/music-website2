@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #222;
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  /* height: 100svh; */
+  max-width: 600px;
+  /* background: linear-gradient(135deg, #00feba, #5b548a); */
+  background-color: black;
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search-container button {
+  background-color: unset;
+}
+.search-container i {
+  font-size: 1.5rem;
+  color: white;
+}
+.search-container input {
+  font-size: 1.5rem;
+  width: 350px;
+  border-radius: 8px;
+  padding: 5px;
+}
